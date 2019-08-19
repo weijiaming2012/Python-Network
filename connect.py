@@ -14,3 +14,6 @@ print "done."
 print "Connecting to remote host..."
 s.connect(("www.baidu.com",80))
 print "done."
+
+print "Connected from",s.getsockname()
+print "Connected to",s.getpeername()
